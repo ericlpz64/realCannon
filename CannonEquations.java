@@ -42,4 +42,9 @@ public class CannonEquations {
         return a;
     }
     
+    public Double missingx(){
+         x = ((vi + vf)/2) * time;
+        return x;
+    }
+    
 }
