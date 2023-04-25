@@ -1,4 +1,4 @@
-
+import java.lang.Math;
 public class CannonEquations {
     Double vi;
     Double vf;
@@ -46,5 +46,15 @@ public class CannonEquations {
          x = ((vi + vf)/2) * time;
         return x;
     }
+
+    public Double missingtime(){
+        time = (vf - (-1 * vi))/a ;
+       return time;
+   }
+
+   public Double missingtheta(){
+    theta = 1/2 *(math.asin);
+    return theta;
+   }
     
 }
