@@ -53,7 +53,9 @@ public class CannonEquations {
    }
 
    public Double missingtheta(){
-    theta = 1/2 *(math.asin);
+    Double e = ((9.81)*(x))/(vi*vi);
+    Double b = Math.toDegrees(Math.asin(e));
+    theta = (0.5 * b); ;
     return theta;
    }
     
