@@ -45,6 +45,10 @@ public class CannonEquations {
     public Double missingx(){
          x = ((vi + vf)/2) * time;
         return x;
+
+        public Double missingtheta(){
+            theta = 0.5*(Math.toDegrees(Math.asin((9.81*x)/(vi*vi))));
+        return theta;
     }
 
     public Double missingtime(){
